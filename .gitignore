@@ -1,54 +1,24 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.vscode
-
-# typechain-types
-/src/typechain-types
-
-# lingui
-/src/locales/**/*.js
-/src/locales/en/messages.po
-/src/locales/_build/
-
-# testing
-/coverage
-
-# production
-/build
-
-/stats.html
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# cache files
-.eslintcache
-*.tsbuildinfo
-
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-package-lock.json
+node_modules
+dist
+dist-ssr
+*.local
 
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-/.idea/
-
-.cursor/
-CLAUDE.md
-.serena
-.claude
-claude.md
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

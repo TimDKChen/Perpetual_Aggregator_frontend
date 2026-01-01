@@ -12,11 +12,19 @@
   "dependencies": {
     "@gmx-io/sdk": "^1.4.0",
     "@headlessui/react": "^2.2.9",
+    "@rainbow-me/rainbowkit": "^2.2.10",
     "@tailwindcss/vite": "^4.1.18",
+    "@tanstack/react-query": "^5.90.16",
+    "@wagmi/connectors": "^7.0.6",
+    "@wagmi/core": "^3.0.2",
+    "ethers": "^6.16.0",
+    "lightweight-charts": "^5.1.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router": "^7.11.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "viem": "^2.43.4",
+    "wagmi": "^3.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
